@@ -257,7 +257,7 @@ int Ctrl_librosQueCuestanMasDe500(LinkedList* pList)
 	return retorno;
 }
 
-int Ctrl_sumarPreciosPearson(LinkedList* pList)
+int Ctrl_sumarPrecios(LinkedList* pList)
 {
 	int retorno = -1;
 	if(pList != NULL)

@@ -88,5 +88,5 @@ int Ctrl_librosQueCuestanMasDe500(LinkedList* pList);
  * @param pList puntero que apunta a la direccion de memoria del array de linkedlist de libros
  * @return precio del libro si es editorial (...) || 0 si no
  */
-int Ctrl_sumarPreciosPearson(LinkedList* pList);
+int Ctrl_sumarPrecios(LinkedList* pList);
 #endif /* CONTROLLER_H_ */

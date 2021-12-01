@@ -149,7 +149,7 @@ int main(void)
 		break;
 		case 8:
 			system("cls");
-			switch(Ctrl_sumarPreciosPearson(listaLibros), 3)
+			switch(Ctrl_sumarPrecios(listaLibros), 3)
 			{
 			case -1:
 				printf("(!!)\n\tOcurrio un error inesperado\n");
